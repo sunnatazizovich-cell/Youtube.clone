@@ -4,12 +4,9 @@ import {bgColor, logo} from "../constants/constants";
 import Box from "@mui/material/Box";
 import SearchBar from "../search-bar/search-bar";
 import {Link} from "react-router-dom";
-import {useNavigate} from "react-router-dom";
 
 
 const Navbar = () => {
-
-    const navigate = useNavigate()
 
     return (
         <Stack direction="row"
