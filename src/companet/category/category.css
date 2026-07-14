@@ -1,0 +1,29 @@
+.category-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.category-scroll {
+    width: max-content;
+    animation: scroll 10s ease-in-out infinite alternate;
+}
+
+.category-scroll:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes scroll {
+     0% {
+         transform: translateX(0)
+     }
+     50% {
+         transform: translateX(-50)
+     }
+     100%{
+         transform: translateX(0)
+     }
+
+
+
+ }
